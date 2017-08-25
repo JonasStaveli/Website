@@ -14,6 +14,10 @@ export class Other extends React.Component {
       pad: {
         paddingLeft: '10px',
         marginBottom: '0px'
+      },
+      done: {
+        textDecoration: "line-through",
+        color: "lime"
       }
     };
     return(
@@ -26,7 +30,7 @@ export class Other extends React.Component {
               Web
                 <ul>
                   <li>Routing</li>
-                  <li>Git</li>
+                  <li style={style.done}>Git</li>
                   <li style={style.light}>Nav<p style={style.pad}> Add dropdown sub menu</p></li>
                   <li>Proper todo list</li>
                   <li style={style.light}>Home<p style={style.pad}>Customizable links and common stuff</p></li>
