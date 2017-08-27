@@ -35,7 +35,7 @@ export class Other extends React.Component {
                   <li style={style.light}>Nav<p style={style.pad}> Add dropdown sub menu</p></li>
                   <li>Proper todo list</li>
                   <li style={style.light}>Home<p style={style.pad}>Customizable links and common stuff</p><p style={style.pad}>World clock to compare timezones</p></li>
-                  <li style={style.light}>World map<p style={style.pad}>Places travled</p></li>
+                  <li style={style.light}>World map<p style={style.pad}>Places travled, stayed and lived</p></li>
                   <li>More stuff...</li>
                 </ul>
 
